@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 15;
+    padding: 15;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b71c1c
+    color:white;
+    line-height : 1.8;
+}
+
+
+header {
+    background: linear-gradient(45deg, #FB000D, #CD007C);
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 1rem;
+}
+
+header .logo img {
+    width: 300px;
+    height: auto;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+}
+
+
+nav {
+    background-color: #000000;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #8d7273;
+}
+.lista-platos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-platos li {
+    background-color: #D4B3B5;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(192, 170, 170, 0.1);
+}
+
+.lista-platos img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+}
+
+.lista-platos h3 {
+    color: #b71c1c;
+}
+
+.lista-platos .origen {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.lista-platos .dato-curioso {
+    font-style: italic;
+    color: #c62828;
+}s
+* Imágenes del catálogo y menú */
+.catalogo img,
+.menu img {
+    width: 500px;   
+    height: 500px;  
+    object-fit: cover; 
+    border-radius: 20px; 
+}
+
+
+.icono img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; 
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background-color: #e79898;
+}
+
+.hero h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 40px; 
+    padding: 1.5rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 190px; 
+    object-fit: cover; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.enlaces-externos {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.enlaces-externos h3 {
+    margin-bottom: 10px;
+    color: #E3000B;
+}
+
+.enlaces-externos a {
+    color: #ff0000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.enlaces-externos a:hover {
+    text-decoration: underline;
+}
+
+
+#platos {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.plato-card {
+    background-color: #f0acaf;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.plato-card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.plato-card h3 {
+    color: #e90606;
+    margin-top: 0.5rem;
+}
+
+.plato-card:hover {
+    transform: scale(1.02);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #ac2424;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    text-decoration: underline;
+}
